@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SanAgro | Financeiro</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/estilo-cadusers.css">
+    <link rel="stylesheet" href="_css/estilo-financeiro.css">
+</head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+    <h1>SanAgro</h1>
+    
+    <nav id="menu-superior">
+        
+        <ul type="disc">                        
+            <li onmouseover="mudaFoto('imagens/symbolmapgreen.png')" onmouseout="mudaFoto('imagens/symbolmapwhite.png')"><a href="index2.html"><b>Mapa</b></a></li>
+            <li onmouseover="mudaFoto1('imagens/symbolinfogreen.png')" onmouseout="mudaFoto1('imagens/symbolinfowhite.png')"><a><b>Informações Gerais</b></a></li>
+            <li onmouseover="mudaFoto2('imagens/symbolusergreen.png')" onmouseout="mudaFoto2('imagens/symboluserwhite.png')"><a href="cadusers.html"><b>Usuários e Funcionários</b></a>
+            <li onmouseover="mudaFoto3('imagens/symbolsafragreen.png')" onmouseout="mudaFoto3('imagens/symbolsafrawhite.png')"><a href="cadsafras.php"><b>Safras</b></a></li>
+            <li onmouseover="mudaFoto4('imagens/symbolpatrimoniogreen.png')" onmouseout="mudaFoto4('imagens/symbolpatrimoniowhite.png')"><a href="cadpatrimonio.html"><b>Patrimônio</b></a></li>
+            <li onmouseover="mudaFoto5('imagens/symbolestoquegreen.png')" onmouseout="mudaFoto5('imagens/symbolestoquewhite.png')"><a href="cadinsumos.html"><b>Estoque</b></a></li>
+            <li onmouseover="mudaFoto6('imagens/symbolfinanceirogreen.png')" onmouseout="mudaFoto6('imagens/symbolfinanceirowhite.png')"><a><b>Financeiro</b></a></li>
+            <li onmouseover="mudaFoto7('imagens/symbolreportgreen.png')" onmouseout="mudaFoto7('imagens/symbolreportwhite.png')"><a><b>Relatórios</b></a></li>
+        </ul>
+        <img id="symbolmap" src="imagens/symbolmapwhite.png" alt="Símbolo mapa" onmouseover="mudaFoto('imagens/symbolmapgreen.png')" onmouseout="mudaFoto('imagens/symbolmapwhite.png')" >
+        <img id="symboluser"src="imagens/symboluserwhite.png" alt="Simbolo Usuário" onmouseover="mudaFoto2('imagens/symbolusergreen.png')" onmouseout="mudaFoto2('imagens/symboluserwhite.png')">
+        <img id="symbolinfo"src="imagens/symbolinfowhite.png" alt="Símbolo Info" onmouseover="mudaFoto1('imagens/symbolinfogreen.png')" onmouseout="mudaFoto1('imagens/symbolinfowhite.png')">
+        <img id="symbolsafra"src="imagens/symbolsafrawhite.png" alt="Símbol Safra" onmouseover="mudaFoto3('imagens/symbolsafragreen.png')" onmouseout="mudaFoto3('imagens/symbolsafrawhite.png')">
+        <img id="symbolpatrimonio"src="imagens/symbolpatrimoniowhite.png" alt="Símbolo patrimônio" onmouseover="mudaFoto4('imagens/symbolpatrimoniogreen.png')" onmouseout="mudaFoto4('imagens/symbolpatrimoniowhite.png')">
+        <img id="symbolestoque"src="imagens/symbolestoquewhite.png" alt="Símbol Estoque" onmouseover="mudaFoto5('imagens/symbolestoquegreen.png')" onmouseout="mudaFoto5('imagens/symbolestoquewhite.png')">
+        <img id="symbolfinanceiro"src="imagens/symbolfinanceirowhite.png" alt="Símbolo Financeiro">
+        <img id="symbolrelatorio"src="imagens/symbolreportwhite.png" alt="Símbol Relatório" onmouseover="mudaFoto7('imagens/symbolreportgreen.png')" onmouseout="mudaFoto7('imagens/symbolreportwhite.png')">
+    </nav>
+    </header>
+    <aside id="menu-lateral">
+        <header>
+            <h2>Informações</h2>
+        </header>
+        <section id="botoes">
+            <li><a href="financeiro.html">Geral</a></li>   
+            <li><a href="caddividas.html">Dívidas</a></li>
+            <li><a href="cadrecebimento.html">Recebimentos</a></li>
+            
+        </section>            
+    </aside>
+    <aside id="right"> 
+        <form id="formuser">
+            <header id="headerusers">
+                <p><b>Informações Gerais</b></p>
+            </header>
+            <section id="body">
+                <table id="info-financeiro">
+                    <tr><td class="ce" rowspan="2"><p id="stl" class="legend">Saldo Total</p></td><td class="cd"><p class="legend">Dívidas</p></td></tr>
+                    <tr><td class="bord-top"><p id="st" class="number">R$ 399.999,99</p></td></tr>
+                    <tr><td class="ced"rowspan="2"><p id="div" class="number">R$900.000,00</p></td><td class="cd"><p class="legend">Valor à receber</p></td></tr>
+                    <tr><td class="bord-top"><p id="rec" class="number">R$ 500.000,00</p></td></tr>
+                </table>                
+            </section>
+        </form>    
+    </aside>    
+    <footer id="rodape">      
+        <p>Developed by Joevitor Sant'Ana</p>
+        <p>Junho 2021</p>
+    </footer>
+</div>
+</body>
+</html>

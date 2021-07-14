@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(96, 96, 96);
+}
+header#cabecalho {
+    height: 185px;        
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(89, 185, 82);
+    color: #ffffff;
+    font-size: 25pt;
+    margin: -8px -10px 0px -10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .7);
+    
+}
+
+nav#menu-superior {
+    display: block;    
+    
+}
+nav#menu-superior ul{
+    list-style: none;
+    position: absolute;
+    left: 30px;
+    top: 58px;
+    width: 1250px;
+    border-bottom: 1px rgb(75, 75, 77) solid;
+    
+}
+nav#menu-superior li {
+    display: inline-block;    
+    margin: 1px;
+    padding: 30px;
+    padding-top: 50px;
+    transition: background-color 1s;
+}    
+nav#menu-superior li:hover {
+    background-color: #727376;
+}
+nav#menu-superior a{
+    color: #ffffff;
+}
+nav#menu-superior a:hover {
+    color:rgb(89, 185, 82);
+}
+nav#menu-superior img#symbolmap {
+    position: absolute;
+    left: 110px;
+    top: 90px;
+}
+nav#menu-superior img#symboluser {
+    position: absolute;
+    left: 490px;
+    top: 85px;
+}
+nav#menu-superior img#symbolinfo {
+    position: absolute;
+    left: 270px;
+    top: 88px;
+}
+nav#menu-superior img#symbolsafra {
+    position: absolute;
+    left: 670px;
+    top: 88px;
+}
+nav#menu-superior img#symbolpatrimonio {
+    position: absolute;
+    left: 790px;
+    top: 85px;
+}
+nav#menu-superior img#symbolestoque {
+    position: absolute;
+    left: 940px;
+    top: 85px;
+}
+nav#menu-superior img#symbolfinanceiro {
+    position: absolute;
+    left: 1080px;
+    top: 93px;
+}
+nav#menu-superior img#symbolrelatorio {
+    position: absolute;
+    left: 1215px;
+    top: 88px;
+}
+aside#menu-lateral {
+    display: block;
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin: 10px 10px 50px 50px;
+    background-color: #e6e7e8;
+    top: 150px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .7);
+}
+aside#menu-lateral header {
+    padding-left: 20px;
+    color: #606062;
+
+}
+footer#rodape {
+    clear: both;
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer#rodape p {
+    margin: 2px;
+    color: #ffffff;
+}
+section#botoes {
+    padding-left: 0px;
+    font-size: 16pt;    
+    list-style: none;
+    color: #606062;
+}
+section#botoes li{
+    padding: 10px 10px 10px 10px;
+}
+section#botoes li:hover {
+    background-color: #bdbfc1;
+}
+section#iframe {
+    margin-top: 10px;    
+}
+section#iframe iframe {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .7);    
+}
+section#iframe iframe#cadarea {
+    visibility:hidden;
+}
+img#arrow {
+    float: right;
+    position: absolute;
+    right: 70px;
+    top: 203px;
+    visibility: hidden;
+}
+a {
+    text-decoration: none;
+}

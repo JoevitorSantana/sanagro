@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/estilo-forms.css">
+    <title>Cadastro de Áreas</title>
+</head>
+<body>
+<div id="painel">
+    <form id="form" action="_php/cadarea.php" method="POST">
+        <header id="cabecalho">
+            <h3>Cadastro de Áreas</h3>
+        </header>
+        <section id="corpo">
+            <p>Código:      <input type="number" id="cCod" name="tCod" size="6"min="0" max="99999"></p><br>
+            <p>Nome Área:   <input type="text" id="cNome" name="tNome" size="45"></p><br>
+            <p>Área(m²):    <input type="number" id="cArea" name="tArea" size="20" min="0" max="99999"></p>
+            <input id="buttons" class="cad" type="submit" value="Cadastrar">
+            <input id="buttons" type="submit" value="Editar">
+            <input id="buttons" type="submit" value="Excluir">
+        </section>
+    </form>
+    
+</div>
+</body>
+</html>
